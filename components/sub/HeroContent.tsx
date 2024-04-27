@@ -10,12 +10,12 @@ import {
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 
-const HeroContent = () => {
+const HeroContent = () => {  
   return (
-    <motion.div
+    <motion.div 
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center md:px-20 px-7 mt-40 w-full z-[20]"
+      className="flex md:flex-row flex-col-reverse items-center justify-center md:px-20 px-7 mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -46,15 +46,16 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website, <br/>{" "}
-          and Software development. Check out my projects and skills.
+          I&apos;m a Full Stack Software Engineer with experience in Website,{" "}
+          <br /> and Software development. Check out my projects and skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
-            <a href="#projects" className="cursor-pointer">
-              Learn More!
-            </a>
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+        >
+          <a href="#projects" className="cursor-pointer">
+            Learn More!
+          </a>
         </motion.a>
       </div>
 
