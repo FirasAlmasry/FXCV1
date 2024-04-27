@@ -14,19 +14,19 @@ const Projects = () => {
         <ProjectCard
           link="https://alriyada-alebdaa.com/"
           src="/alryada.png"
-          title="Modern Next.js Portfolio"
+          title="Mern Stack Project"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
           link="https://tailwind-css-chi-swart.vercel.app/"
           src="/Nike.png"
-          title="Interactive Website Cards"
+          title="tailwind css Project"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
           link="https://js-css-portfolio-project-master-five.vercel.app/"
           src="/Screenshot 2024-04-27 224730.png"
-          title="Space Themed Website"
+          title="Space Themed Portfolio Project"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
       </div>
@@ -34,7 +34,7 @@ const Projects = () => {
         <ProjectCard
           link="https://site2-sand.vercel.app/"
           src="/temp.png"
-          title="Modern Next.js Portfolio"
+          title="React Reusability Component"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
