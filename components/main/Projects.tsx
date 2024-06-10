@@ -43,12 +43,12 @@ const Projects = () => {
           title="Interactive Website Cards"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
-        <ProjectCard
+        {/* <ProjectCard
           link="https://aaqar-plus-web-v1.vercel.app/"
           src="/Screenshot 2024-04-27 224940.png"
           title="Space Themed Website"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
+        /> */}
       </div>
     </div>
   );
