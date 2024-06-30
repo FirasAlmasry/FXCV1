@@ -12,43 +12,23 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
+          src="/NextWebsite.png"
           link="https://alriyada-alebdaa.com/"
-          src="/alryada.png"
-          title="Mern Stack Project"
+          title="Modern Next.js Portfolio"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
+          src="/CardImage.png"
           link="https://tailwind-css-chi-swart.vercel.app/"
-          src="/Nike.png"
-          title="tailwind css Project"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-        <ProjectCard
-          link="https://js-css-portfolio-project-master-five.vercel.app/"
-          src="/Screenshot 2024-04-27 224730.png"
-          title="Space Themed Portfolio Project"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-      </div>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 my-4">
-        <ProjectCard
-          link="https://site2-sand.vercel.app/"
-          src="/temp.png"
-          title="React Reusability Component"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-        <ProjectCard
-          link="https://travel-delta-ruddy.vercel.app/"
-          src="/travel.png"
           title="Interactive Website Cards"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
-        {/* <ProjectCard
-          link="https://aaqar-plus-web-v1.vercel.app/"
-          src="/Screenshot 2024-04-27 224940.png"
+        <ProjectCard
+          src="/SpaceWebsite.png"
+          link="https://js-css-portfolio-project-master-five.vercel.app/"
           title="Space Themed Website"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        /> */}
+        />
       </div>
     </div>
   );
