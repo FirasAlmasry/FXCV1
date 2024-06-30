@@ -13,19 +13,19 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/NextWebsite.png"
-          link="https://alriyada-alebdaa.com/"
+          // link="https://alriyada-alebdaa.com/"
           title="Modern Next.js Portfolio"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
           src="/CardImage.png"
-          link="https://tailwind-css-chi-swart.vercel.app/"
+          // link="https://tailwind-css-chi-swart.vercel.app/"
           title="Interactive Website Cards"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
           src="/SpaceWebsite.png"
-          link="https://js-css-portfolio-project-master-five.vercel.app/"
+          // link="https://js-css-portfolio-project-master-five.vercel.app/"
           title="Space Themed Website"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
