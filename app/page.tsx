@@ -14,7 +14,7 @@ export default function Home() {
         <Services />
         <Encryption />
         <RecentProjects />
-        <div className="relative px-10" id="contact">
+        <div className="relative px-10 z-[20]" id="contact">
           <Contact />
         </div>
       </div>
