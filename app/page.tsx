@@ -1,8 +1,9 @@
 import Encryption from "@/components/main/Encryption";
 import Hero from "@/components/main/Hero";
-import Projects from "@/components/main/Projects";
+import Services from "@/components/main/Services";
+import RecentProjects from "@/components/main/RecentProjects";
 import Skills from "@/components/main/Skills";
-import Image from "next/image";
+import Contact from "@/components/main/Contact";
 
 export default function Home() {
   return (
@@ -10,8 +11,12 @@ export default function Home() {
       <div className="flex flex-col gap-10">
         <Hero />
         <Skills />
+        <Services />
         <Encryption />
-        <Projects />
+        <RecentProjects />
+        <div className="relative px-10" id="contact">
+          <Contact />
+        </div>
       </div>
     </main>
   );
